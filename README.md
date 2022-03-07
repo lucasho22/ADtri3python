@@ -4,24 +4,24 @@
 
 - [Link to github pages for this repository](https://ad1616.github.io/ADtri3python/)
 
-### Week 1
+## Week 1
 
-### Week 2
+## Week 2
 
-### Week 3
+## Week 3
 
-### Week 4
+## Week 4
 
-### Week 5
+## Week 5
 
-### Week 6
+## Week 6
 
-### Week 7
+## Week 7
 
-### Week 8
+## Week 8
 
-### Week 9
+## Week 9
 
-### Week 10
+## Week 10
 
-### Week 11
+## Week 11
