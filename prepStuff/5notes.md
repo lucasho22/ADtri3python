@@ -1,5 +1,19 @@
 {% include navigation.html %}
 
+# 5.1 Github Pages Action
+## 1. 
+- Beneficial effect is that people can communicate more easily. Harmful effect is that people spend more time on computer talking than real life.
+- Beneficial effect is that people can create apps to sell things online. Harmful effect is that fake apps can be created to scam people.
+- Beneficial effect is that people can automate features in life like turning on lights or ordering food. Harmful effect is that people become lazy and cannot do basic work.
+## 2.
+Dopamine issues are definitely real. For example, in high school, I often get less motivated to study because it does not give me as much dopamine as playing video games. However, I have learned to control this and also have learned to enjoy learning more so that I stay motivated.
+
+# 5.2 Github Pages Action
+## 1. Someone empowers themself in a digital world by using all the resources they can in a wise way. This means not doing anything illegal. Due to the digital divide, many people don't have equal access to these resources; it is empowering to not only use these resources but to also try to reduce the divide by helping others by creating programs for problems in the world like a website for an organization.
+## 2. Someone that is empowered can help someone that is not empowered by building a resource that aids them. At Del Norte High School, I can build a website for a club in which people don't know how to code or don't have access to the resources to build a website.
+## 3. Paper or red tape blocking is not digital empowerment. Such barriers exist at del norte, albeit unintentionally; for example, it is easier for one to do well in computer science class with a high end computer while someone who doesn't have a laptop will struggle. These kinds of barriers exist everywhere in the world; it is difficult to get a job in the tech industry without having been exposed to computers and have years of experience with them.
+
+
 # 5.1 to 5.6 Notes
 
 # 5.1 (Beneficial and Harmful Effects) Daily Video 1
