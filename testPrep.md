@@ -1,4 +1,4 @@
-{% include navigation.html %}
+{% include navigationNotes.html %}
 
 
 # Navigation for Test Prep
