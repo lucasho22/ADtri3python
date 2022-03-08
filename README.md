@@ -1,3 +1,6 @@
+{% include navigation.html %}
+
+
 # Sahil Samar Python and Console Programming
 
 - [Link to REPL for this trimester](https://replit.com/@AD1616/ADtri3python#README.md)
