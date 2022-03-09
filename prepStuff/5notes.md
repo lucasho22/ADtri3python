@@ -16,7 +16,7 @@ Dopamine issues are definitely real. For example, in high school, I often get le
 
 ## 1. 
 
-- Someone empowers themself in a digital world by using all the resources they can in a wise way. This means not doing anything illegal. Due to the digital divide, many people don't have equal access to these resources; it is empowering to not only use these resources but to also try to reduce the divide by helping others by creating programs for problems in the world like a website for an organization.
+- Someone empowers themself in a digital world by using all the resources they can in a wise way. This menas buying a digital device and working with technology. This also means not doing anything illegal. Due to the digital divide, many people don't have equal access to these resources; it is empowering to not only use these resources but to also try to reduce the divide by helping others by creating programs for problems in the world like a website for an organization.
 
 ## 2. 
 
