@@ -27,7 +27,7 @@ def pattern_print(position):
     print(sp + "  '.___.' ")
 
 # Pattern function, iterface into this file
-def pattern():
+def patternfunc():
 
     # loop control variables
     start = 0  # start at zero
@@ -39,4 +39,4 @@ def pattern():
         pattern_print(position)  # call to function with parameter
         time.sleep(.1)
 
-pattern()
+patternfunc()
