@@ -13,7 +13,4 @@ def test_swap():
     age2 = int(input("Enter second age: "))
     x, y = swap(age1, age2)
     print(x, y)
-    swap(21, 16)
   
-if __name__ =="__main__":
-  test_swap()

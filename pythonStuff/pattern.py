@@ -38,5 +38,3 @@ def patternfunc():
     for position in range(start, distance, step):
         pattern_print(position)  # call to function with parameter
         time.sleep(.1)
-
-patternfunc()
