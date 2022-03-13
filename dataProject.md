@@ -141,6 +141,7 @@ if __name__ == "__main__":
 ## Github Links
 
 [Issue for menu, submenu, and swap and keypad functions](https://github.com/AD1616/ADtri3python/issues/1)
+
 [Issue for pattern animation](https://github.com/AD1616/ADtri3python/issues/2)
 
 ## Replit links
