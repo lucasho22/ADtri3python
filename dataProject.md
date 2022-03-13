@@ -68,23 +68,11 @@ def swap(a, b):
         arranged_lst.append(smallest)
         lst.remove(smallest)
     return arranged_lst[0], arranged_lst[1]
-
-
-def test_swap():
-    age1 = int(input("Enter first age: "))
-    age2 = int(input("Enter second age: "))
-    x, y = swap(age1, age2)
-    print(x, y)
 ```
 
-### Code for menu and submenu
+### Key Code for menu and submenu
 
 ```python
-import os
-import keypad
-import swap
-import pattern
-
 main_menu = [
     ["keypad", keypad.format_tester],
     ["swap", swap.test_swap]
@@ -93,9 +81,6 @@ main_menu = [
 patterns_sub_menu = [
     ["pattern", pattern.patternfunc]
 ]
-
-border = "=" * 25
-banner = f"\n{border}\nPlease Select An Option\n{border}"
 
 def menu():
     title = "Function Menu" + banner
@@ -159,6 +144,7 @@ if __name__ == "__main__":
 [Issue for pattern animation](https://github.com/AD1616/ADtri3python/issues/2)
 
 ## Replit links
+[Link to menu](https://replit.com/@AD1616/ADtri3python#pythonStuff/menu.py)
 
 # Week 2
 
