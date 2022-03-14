@@ -1,7 +1,5 @@
 {% include navigation.html %}
 
-{% include replit.html %}
-
 # Data Structures Project
 
 # Week 1
@@ -163,8 +161,10 @@ def createTree(height):
 [Issue for tree pattern](https://github.com/AD1616/ADtri3python/issues/3)
 
 ## Replit links
+
 [Link to menu which contains runtime of this week's progress](https://replit.com/@AD1616/ADtri3python#pythonStuff/menu.py)
 
+{% include replit.html %}
 
 # Week 2
 
