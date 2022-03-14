@@ -138,14 +138,30 @@ if __name__ == "__main__":
     menu()
 ```
 
+### Code for Tree
+
+```python
+def createTree(height):
+  i = 1
+  while(i<=height):
+    starInRow = "* " * i
+    n = 3 * height - i
+    sp = " " * n
+    print(sp + starInRow + "\n")
+    i = i + 1
+  print(" " * 3 * (height-1) + "* * *\n" + " " * 3 * (height-1) + "* * *")
+```
+
 ## Github Links
 
 [Issue for menu, submenu, and swap and keypad functions](https://github.com/AD1616/ADtri3python/issues/1)
 
 [Issue for pattern animation](https://github.com/AD1616/ADtri3python/issues/2)
 
+[Issue for tree pattern](https://github.com/AD1616/ADtri3python/issues/3)
+
 ## Replit links
-[Link to menu](https://replit.com/@AD1616/ADtri3python#pythonStuff/menu.py)
+[Link to menu which contains runtime of this week's progress](https://replit.com/@AD1616/ADtri3python#pythonStuff/menu.py)
 
 # Week 2
 
