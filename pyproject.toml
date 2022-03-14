@@ -7,8 +7,6 @@ authors = ["AD1616 <<>>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 mathpy = "^0.3.0"
-patterns = "^0.3"
-listy = "^1.0.0"
 
 [tool.poetry.dev-dependencies]
 

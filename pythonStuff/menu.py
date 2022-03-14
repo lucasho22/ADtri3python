@@ -1,9 +1,11 @@
 # menuy.py - function style menu
 # Imports typically listed at top
 # each import enables us to use logic that has been abstracted to other files and folders
+import os
 import keypad
 import swap
 import pattern
+import Tree
 
 
 # Main list of [Prompts, Actions]
@@ -12,7 +14,8 @@ import pattern
 # 2. function references will be executed directly file.function()
 main_menu = [
     ["keypad", keypad.format_tester],
-    ["swap", swap.test_swap]
+    ["swap", swap.test_swap],
+    ["Tree", Tree.createTreeTester]
 ]
 
 # Submenu list of [Prompt, Action]
@@ -68,6 +71,7 @@ def buildMenu(banner, options):
             return
         try:
             # try as function
+            os.system('clear')
             action = prompts.get(choice)[1]
             action()
         except TypeError:
