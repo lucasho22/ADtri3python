@@ -163,6 +163,8 @@ def createTree(height):
 ## Replit links
 [Link to menu which contains runtime of this week's progress](https://replit.com/@AD1616/ADtri3python#pythonStuff/menu.py)
 
+{% include replit.html %}
+
 # Week 2
 
 ## Code snippets
