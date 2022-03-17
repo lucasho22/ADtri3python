@@ -7,23 +7,17 @@ import swap
 import pattern
 import Tree
 
-
 # Main list of [Prompts, Actions]
 # Two styles are supported to execute abstracted logic
 # 1. file names will be run by exec(open("filename.py").read())
 # 2. function references will be executed directly file.function()
-main_menu = [
-    ["keypad", keypad.format_tester],
-    ["swap", swap.test_swap],
-    ["Tree", Tree.createTreeTester]
-]
+main_menu = [["keypad", keypad.format_tester], ["swap", swap.test_swap],
+             ["Tree", Tree.createTreeTester]]
 
 # Submenu list of [Prompt, Action]
 # Works similarly to main_menu
 
-patterns_sub_menu = [
-    ["pattern", pattern.patternfunc]
-]
+patterns_sub_menu = [["pattern", pattern.patternfunc]]
 
 # Menu banner is typically defined by menu owner
 border = "=" * 25
@@ -44,6 +38,7 @@ def menu():
 def patterns_submenu():
     title = "Function Submenu" + banner
     buildMenu(title, patterns_sub_menu)
+
 
 def buildMenu(banner, options):
     # header for menu
