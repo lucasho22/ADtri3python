@@ -65,8 +65,6 @@ def recursive_loop(n):
         recursive_loop(n + 1)
     return # exit condition
 
-tester()
-
 # Hack 3
 
 def fib(n):
@@ -88,13 +86,11 @@ def fibTester():
     print("The sequence is", end = ' ')
     for i in range(num):
       print(sequence[i+1], end = ', ')
-    print("and the", num , "th fibonnaci number is", fib(num))
+    print("and the number", num , "fibonnaci number is", fib(num))
   except:
     print("...Sorry, please type in a positive integer.")
 
       
-
-fibTester()
   
   
   

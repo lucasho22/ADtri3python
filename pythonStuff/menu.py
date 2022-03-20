@@ -6,18 +6,20 @@ import keypad
 import swap
 import pattern
 import Tree
+from TT1 import hacks
 
 # Main list of [Prompts, Actions]
 # Two styles are supported to execute abstracted logic
 # 1. file names will be run by exec(open("filename.py").read())
 # 2. function references will be executed directly file.function()
-main_menu = [["keypad", keypad.format_tester], ["swap", swap.test_swap],
-             ["Tree", Tree.createTreeTester]]
+main_menu = []
 
 # Submenu list of [Prompt, Action]
 # Works similarly to main_menu
 
-patterns_sub_menu = [["pattern", pattern.patternfunc]]
+TT0_sub_menu = [["pattern1", pattern.patternfunc], ["keypad", keypad.format_tester], ["swap", swap.test_swap], ["Tree", Tree.createTreeTester]]
+TT1_sub_menu = [["hack1-hack2", hacks.tester] ,
+                ["hack3", hacks.fibTester]]
 
 # Menu banner is typically defined by menu owner
 border = "=" * 25
@@ -31,13 +33,18 @@ banner = f"\n{border}\nPlease Select An Option\n{border}"
 def menu():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
-    menu_list.append(["pattern", patterns_submenu])
+    menu_list.append(["TT0", TT0_submenu])
+    menu_list.append(["TT1", TT1_submenu])
     buildMenu(title, menu_list)
 
 
-def patterns_submenu():
+def TT0_submenu():
     title = "Function Submenu" + banner
-    buildMenu(title, patterns_sub_menu)
+    buildMenu(title, TT0_sub_menu)
+
+def TT1_submenu():
+    title = "Function Submenu" + banner
+    buildMenu(title, TT1_sub_menu)
 
 
 def buildMenu(banner, options):
