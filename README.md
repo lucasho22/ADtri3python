@@ -13,4 +13,6 @@
 
 ## Week 1
 
+[Link to Review Ticket for this week](https://github.com/AD1616/ADtri3python/issues/7)
+
 ## Week 2
