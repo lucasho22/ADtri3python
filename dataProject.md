@@ -238,8 +238,13 @@ def fibTester():
 
 ## Github Links
 
+[Issue for InfoDB lists and loops](https://github.com/AD1616/ADtri3python/issues/5)
+[Issue for Fibonacci](https://github.com/AD1616/ADtri3python/issues/6)
+
 ## Replit links
 
+- Runtime from menu
+- [Link to code for hacks](https://replit.com/@AD1616/ADtri3python#pythonStuff/TT1/hacks.py)
 
 # Week 3
 
