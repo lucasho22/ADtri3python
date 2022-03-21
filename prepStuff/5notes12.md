@@ -32,6 +32,7 @@ Dopamine issues are definitely real. For example, in high school, I often get le
 # 5.1 (Beneficial and Harmful Effects) Daily Video 1
 
 ## Learning Objective
+
 * Explain how an effect of a computing innovation can be both beneficial and harmful.
 
 ## Essential Knowledge
@@ -45,9 +46,11 @@ Dopamine issues are definitely real. For example, in high school, I often get le
 # 5.1 Daily Video 2
 
 ## Learning Objective
+
 * Explain how a computing innovation can have an impact beyond its intended purpose.
 
 ## Essential Knowledge
+
 * Computing innovations can be used in ways that their creators had not originally intended:
 * The World Wide Web was originally intended only for rapid and easy exchange of information within the scientific community.
 * Targeted advertising is used to help businesses, but it can be misused at both individual and aggregate levels.
@@ -60,8 +63,11 @@ Dopamine issues are definitely real. For example, in high school, I often get le
 # 5.2 (Digital Divide)
 
 ## Learning Objective
+
 * Describe issues that contribute to the digital divide. 
+
 ## Essential Knowledge
+
 * Internet access varies between socioeconomic, geographic, and demographic characteristics, as well as between countries.
 * The digital divide refers to differing access to computing devices and the Internet.
 * The digital divide can affect both groups and individuals.

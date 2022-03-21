@@ -6,7 +6,7 @@
 
 {% include replit.html %}
 
-# Week 1
+# Week 0
 
 ## Code snippets
 
@@ -168,14 +168,83 @@ def createTree(height):
 
 [Link to menu which contains runtime of this week's progress](https://replit.com/@AD1616/ADtri3python#pythonStuff/menu.py)
 
-# Week 2
+# Week 1
 
 ## Code snippets
 
+### Code for InfoDB lists
+
+```python
+InfoDb = []
+InfoDb.append({  
+               "StudentFirstName": "Sahil",  
+               "StudentLastName": "Samar",  
+               "Classes":["AP Physics","AP Calc BC","AP English Language","AP US History", "AP CSP"]  
+              })  
+```
+
+### Code for print data function and loops
+
+```python
+def print_data(n):
+    print(InfoDb[n]["StudentFirstName"], InfoDb[n]["StudentLastName"])  # using comma puts space between values
+    print("\t", "Classes: ", end="")  # \t is a tab indent, end="" make sure no return occurs
+    print(", ".join(InfoDb[n]["Classes"]))  # join allows printing a string list with separator
+    print()
+  
+def for_loop():
+    for n in range(len(InfoDb)):
+        print_data(n)
+
+def while_loop(n):
+    while n < len(InfoDb):
+        print_data(n)
+        n += 1
+    return
+
+def recursive_loop(n):
+    if n < len(InfoDb):
+        print_data(n)
+        recursive_loop(n + 1)
+    return # exit condition
+```
+
+### Code for fibonacci function and tester
+
+```python
+def fib(n):
+  if n == 0:
+      return 0
+  elif n == 1:
+      return 1
+  else:
+      return fib(n-1) + fib(n-2)
+
+def fibTester():
+  num = int(input("Enter a number for fibonnaci: "))
+  try: 
+    i = 0
+    sequence = []
+    while (i <= num):
+      sequence.append(fib(i))
+      i +=1
+    print("The sequence is", end = ' ')
+    for i in range(num):
+      print(sequence[i+1], end = ', ')
+    print("and the number", num , "fibonnaci number is", fib(num))
+  except:
+    print("...Sorry, please type in a positive integer.")
+```
+
 ## Github Links
+
+- [Issue for InfoDB lists and loops](https://github.com/AD1616/ADtri3python/issues/5)
+- [Issue for Fibonacci](https://github.com/AD1616/ADtri3python/issues/6)
 
 ## Replit links
 
+- Runtime from menu
+- [Link to code for hacks](https://replit.com/@AD1616/ADtri3python#pythonStuff/TT1/hacks.py)
 
 # Week 3
 
