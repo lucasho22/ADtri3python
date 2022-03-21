@@ -1,3 +1,6 @@
+{% include navigation.html %}
+
+
 # 5.3 Github Pages Action
 
 ## [Video](https://www.youtube.com/watch?v=t4DT3tQqgRM)
