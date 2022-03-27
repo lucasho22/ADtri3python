@@ -35,13 +35,6 @@ def for_loop1():
   for i in range(len(InfoDb)):
     print(str(InfoDb[i]["StudentFirstName"]) + " First Period Class: " + InfoDb[i]["Classes"][0])
 
-def tester():
-    print("For loop")
-    for_loop()
-    print("While loop")
-    while_loop(0)  # requires initial index to start while
-    print("Recursive loop")
-    recursive_loop(0)  # requires initial index to start recursion
 
 def print_data(n):
     print(InfoDb[n]["StudentFirstName"], InfoDb[n]["StudentLastName"])  # using comma puts space between values
@@ -67,6 +60,14 @@ def recursive_loop(n):
         print_data(n)
         recursive_loop(n + 1)
     return # exit condition
+
+def tester():
+    print("For loop")
+    for_loop()
+    print("While loop")
+    while_loop(0)  # requires initial index to start while
+    print("Recursive loop")
+    recursive_loop(0)  # requires initial index to start recursion
 
 # Hack 3
 
