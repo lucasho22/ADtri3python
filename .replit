@@ -1,2 +1,2 @@
 language = "python3"
-run = "python pythonStuff/TT2/primeFactors2.py"
+run = "python pythonStuff/menu.py"
