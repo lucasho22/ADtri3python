@@ -288,9 +288,17 @@ def fibTester():
 - Runtime from menu
 - [Link to code for hacks](https://replit.com/@AD1616/ADtri3python#pythonStuff/TT1/hacks.py)
 
-# Week 3
+# Week 2
 
-## Code snippets
+## Snippets
+
+### Organization Screenshot
+
+### Factorial Function with Classes
+
+### My own math function: Prime Factors. OOP code
+
+### Prime Factors in Imperative form
 
 ## Github Links
 
