@@ -303,6 +303,7 @@ def fibTester():
 
 ### Factorial Function with Classes
 
+
 ```python
 class Factorial:
   def __init__(self):
@@ -329,7 +330,9 @@ def tester():
     print("Enter an integer")
 ```
 
+
 ### My own math function: Prime Factors. OOP code
+
 
 ```python
 import math
@@ -370,7 +373,9 @@ def tester():
   print("5's prime factors: " + str(factors5(5))) # Should output none
 ```
 
+
 ### Prime Factors in Imperative form
+
 
 ```python
 import math
@@ -408,7 +413,10 @@ def tester():
   print("12's prime factors: " + str(primeFactors(12))) # Should output 2 and 3
   print("5's prime factors: " + str(primeFactors(5))) # Should output none
 ```
+
+
 ### Palindrome Code
+
 
 ```python
 import re
@@ -452,7 +460,9 @@ def tester():
   print(test(12314)) # Is not palindrome
 ```
 
+
 ## Github Links
+
 
 [Factorial Issue](https://github.com/AD1616/ADtri3python/issues/10)
 
