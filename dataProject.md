@@ -454,5 +454,11 @@ def tester():
 
 ## Github Links
 
+[Factorial Issue](https://github.com/AD1616/ADtri3python/issues/10)
+[Own Math Function Issue](https://github.com/AD1616/ADtri3python/issues/11)
+[Palindrome Issue](https://github.com/AD1616/ADtri3python/issues/12)
+
+
 ## Replit links
 
+[Updated Menu](https://replit.com/@AD1616/ADtri3python#pythonStuff/menu.py)
